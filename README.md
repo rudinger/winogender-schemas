@@ -10,7 +10,7 @@ Winogender Schemas are minimal pairs of sentences that differ only by the gender
    2. **his** blood would be drawn in an hour.
    3. **their** blood would be drawn in an hour.
    
-`PARTICIPANT`s may also be replaced with the semantically bleached referent "someone." There are 120 templates (60 occupations, two templates per occupation); these are located in data/templates.tsv. Fully instantiated, the templates generate 720 full sentences (120 templates x {female, male, neutral} x {participant, "someone"}); the 720 sentences are located in data/all_sentences.tsv. They were generated from scripts/instantiate.py.
+`PARTICIPANT`s may also be replaced with the semantically bleached referent "someone." There are 120 templates (60 occupations, two templates per occupation); these are located in [data/templates.tsv](data/templates.tsv). Fully instantiated, the templates generate 720 full sentences (120 templates x {female, male, neutral} x {participant, "someone"}); the 720 sentences are located in [data/all_sentences.tsv](data/all_sentences.tsv). They were generated with [scripts/instantiate.py](scripts/instantiate.py).
 
 Further details and experimental analysis may be found in our 2018 NAACL paper, "Gender Bias in Coreference Resolution."
 
